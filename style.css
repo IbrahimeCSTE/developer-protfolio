@@ -1,3 +1,82 @@
-h1{
-    background-color: aqua;
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.Name{
+    color: orange;
+}
+.info{
+    margin-top:25px;
+    margin-bottom: 15px;
+}
+.myself{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.myself h1,h2{
+    font-size: 40px;
+}
+.hire-button{
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-image: linear-gradient(orange,red
+    );
+    padding: 8px;
+    margin-top: 10px;
+}
+.headerContent{
+    display:flex;
+}
+
+.myself img{
+   width: 80%;
+}
+.header{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+   
+}
+.bodyContent{
+    background-image: url("/images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bodyContent1 .myself{
+    width: 40%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.bodyContent2{
+    margin-top: 100px;
+}
+.bodyContent2 .card1{
+      box-shadow: 10px 15px 10px gray;
+      padding-left: 20px;
+      width: 35%;
+     margin-left: 100px;
+}
+.bodyContent2 .card2{
+    box-shadow: 10px 15px 10px gray;
+    padding-left: 20px;
+    width: 35%;
+    margin-left: 100px;
+}
+.bodyContent2{
+    background-image: url("/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer h6{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.bodyContent .myself h3,p{
+  padding: 4px;
 }
